@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function NavBar() {
   return (
-    <nav>
+    <nav className="NavBar">
       <ul>
         <li>
           <Link href="/">Home</Link>
