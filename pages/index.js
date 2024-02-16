@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function HomePage() {
   return (
     <>
@@ -5,7 +7,7 @@ function HomePage() {
         <nav>
           <ul>
             <li>
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
             </li>
           </ul>
         </nav>
