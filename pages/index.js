@@ -1,8 +1,15 @@
+import Head from "next/head";
+
 function HomePage() {
   return (
-    <main>
-      <h1>Simple Blog</h1>
-    </main>
+    <>
+      <Head>
+        <title>Simple Blog</title>
+      </Head>
+      <main>
+        <h1>Simple Blog</h1>
+      </main>
+    </>
   );
 }
 

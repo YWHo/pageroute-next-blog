@@ -1,8 +1,15 @@
+import Head from "next/head";
+
 function AboutPage() {
   return (
-    <main>
-      <h1>About</h1>
-    </main>
+    <>
+      <Head>
+        <title>About - Simple Blog</title>
+      </Head>
+      <main>
+        <h1>About</h1>
+      </main>
+    </>
   );
 }
 
