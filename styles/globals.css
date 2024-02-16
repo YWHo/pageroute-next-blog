@@ -11,17 +11,3 @@ a:focus,
 a:hover {
   text-decoration: underline;
 }
-
-.NavBar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.NavBar li {
-  display: inline;
-  margin-left: 0.75rem;
-}
-
-.NavBar li:not(:first-child) {
-  margin-left: 0.75rem;
-}
